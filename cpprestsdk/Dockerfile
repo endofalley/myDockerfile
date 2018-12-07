@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:16.06
 MAINTAINER liyl<liyl@sysware.com.cn>
 RUN apt-get update && apt-get -y --no-install-recommends install \
                                 libmodbus5 liblog4cxx10v5 \
